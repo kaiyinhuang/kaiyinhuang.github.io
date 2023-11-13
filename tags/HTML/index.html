@@ -4,8 +4,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Intelligent Piggy Bank, Kaiyin Huang">
-    <meta name="description" content="We designed and implemented intelligent piggy bank which leverages task-reward mechanism for guiding children to better use money">
+    <meta name="keywords" content="Tag: HTML, Kaiyin Huang">
+    <meta name="description" content="Kaiyin Huang">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -17,7 +17,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Intelligent Piggy Bank | Kaiyin Huang</title>
+    <title>Tag: HTML | Kaiyin Huang</title>
     <link rel="icon" type="image/png" href="/favicon.png">
     
 
@@ -38,7 +38,9 @@
 
 
 
+    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
     <link rel="stylesheet" href="/css/post.css">
+
 
 
 
@@ -158,387 +160,218 @@
 
 </header>
 
-    
+    <div class="bg-cover pd-header about-cover">
+    <div class="container">
+    <div class="row">
+    <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
+        <div class="brand">
+            <div class="title center-align">
+                
+                Welcome to Kaiyin&#39;s Home
+                
+            </div>
 
-
-
-<div class="bg-cover pd-header post-cover" style="background-image: url('/images/posts/piggy_bank/1.png')">
-    <div class="container" style="right: 0px;left: 0px;">
-        <div class="row">
-            <div class="col s12 m12 l12">
-                <div class="brand">
-                    <h1 class="description center-align post-title">Intelligent Piggy Bank</h1>
-                </div>
+            <div class="description center-align">
+                
+                <span id="subtitle"></span>
+                <script src="/libs/typed/typed.js"></script>
+                <script>
+                    var typed = new Typed("#subtitle", {
+                        strings: [ 
+                            
+                                "I am a Designer &amp; Developer for Human-computer Interaction System",
+                            
+                        ],
+                        startDelay: 300,
+                        typeSpeed: 1,
+                        loop: false,
+                        backSpeed: 0,
+                        showCursor: true
+                    });
+                </script>
+                
             </div>
         </div>
     </div>
 </div>
 
 
+<script>
+    // 每天切换 banner 图.  Switch banner image every day.
+    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
+    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
+</script>
+<script>
+    
+      var bannerUrl = "/medias/featureimages/" + Math.floor(Math.random() * 24) + '.jpg';
+    
+    $('.bg-cover.about-cover').css('background-image', 'url(' + bannerUrl + ')');
+
+</script>
 
 
-<main class="container content">
+    </div>
+</div>
+
+<main class="content">
 
     
-    <!-- 文章内容详情 -->
-<div id="artDetail">
+
+<div id="tags" class="container chip-container">
     <div class="card">
-        <div class="card-content article-info">
-            <div class="row tag-cate">
-                <div class="col s7">
-                    
-                    <div class="article-tag">
-                        
-                            <a href="/tags/Rhino/">
-                                <span class="chip bg-color">Rhino</span>
-                            </a>
-                        
-                            <a href="/tags/Model/">
-                                <span class="chip bg-color">Model</span>
-                            </a>
-                        
-                            <a href="/tags/Render/">
-                                <span class="chip bg-color">Render</span>
-                            </a>
-                        
-                            <a href="/tags/C/">
-                                <span class="chip bg-color">C#</span>
-                            </a>
-                        
-                            <a href="/tags/Unity/">
-                                <span class="chip bg-color">Unity</span>
-                            </a>
-                        
-                            <a href="/tags/Keyshot/">
-                                <span class="chip bg-color">Keyshot</span>
-                            </a>
-                        
-                    </div>
-                    
-                </div>
-                <div class="col s5 right-align">
-                    
-                </div>
+        <div class="card-content">
+            <div class="tag-title center-align">
+                <i class="fas fa-tags"></i>&nbsp;&nbsp;Post Tags
             </div>
-
-            <div class="post-info">
+            <div class="tag-chips">
                 
-                <div class="post-date info-break-policy">
-                    <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
-                    2021-12-06
-                </div>
                 
-
+                <a href="/tags/Rhino/" title="Rhino: 3">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Rhino" style="background-color: #F9EBEA;">Rhino
+                        <span class="tag-length">3</span>
+                    </span>
+                </a>
                 
-
                 
-
+                <a href="/tags/CAD/" title="CAD: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="CAD" style="background-color: #F5EEF8;">CAD
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
                 
-
+                
+                <a href="/tags/C-C/" title="C/C++: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="C/C++" style="background-color: #D5F5E3;">C/C++
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Model/" title="Model: 2">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Model" style="background-color: #E8F8F5;">Model
+                        <span class="tag-length">2</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Render/" title="Render: 2">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Render" style="background-color: #FEF9E7;">Render
+                        <span class="tag-length">2</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/C/" title="C#: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="C#" style="background-color: #F8F9F9;">C#
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Unity/" title="Unity: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Unity" style="background-color: #82E0AA;">Unity
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/JavaScript/" title="JavaScript: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="JavaScript" style="background-color: #D7BDE2;">JavaScript
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Mini-program/" title="Mini-program: 2">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Mini-program" style="background-color: #A3E4D7;">Mini-program
+                        <span class="tag-length">2</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Keyshot/" title="Keyshot: 2">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Keyshot" style="background-color: #85C1E9;">Keyshot
+                        <span class="tag-length">2</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/HTML/" title="HTML: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-active "
+                            data-tagname="HTML" style="background-color: #F8C471;">HTML
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/CSS/" title="CSS: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="CSS" style="background-color: #F9E79F;">CSS
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
                 
             </div>
         </div>
-        <hr class="clearfix">
-
-        
-
-        
-
-        <div class="card-content article-card-content">
-            <div id="articleContent">
-                <h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><hr>
-<p>For better cultivating children’s views on money, in this project we designed and implemented this intelligent piggy bank which leverages task-reward mechanism to guide children to spend, save, and withdraw money in more proper way.</p>
-<h2 id="Detailed-Design"><a href="#Detailed-Design" class="headerlink" title="Detailed Design"></a>Detailed Design</h2><hr>
-<img src="/images/posts/piggy_bank/1.png" width="100%" />
-<img src="/images/posts/piggy_bank/2.png" width="100%" />
-<img src="/images/posts/piggy_bank/3.png" width="100%" />
-<img src="/images/posts/piggy_bank/4.png" width="100%" />
-<img src="/images/posts/piggy_bank/5.png" width="100%" />
-<img src="/images/posts/piggy_bank/6.png" width="100%" />
-<img src="/images/posts/piggy_bank/7.png" width="100%" />
-<img src="/images/posts/piggy_bank/8.png" width="100%" />
-
-
-                
-            </div>
-            <hr/>
-
-            
-
-    <div class="reprint" id="reprint-statement">
-        
-            <div class="reprint__author">
-                <span class="reprint-meta" style="font-weight: bold;">
-                    <i class="fas fa-user"></i>
-                    Author: 
-                </span>
-                <span class="reprint-info">
-                    <a href="/about" rel="external nofollow noreferrer">Kaiyin Huang</a>
-                </span>
-            </div>
-            <div class="reprint__type">
-                <span class="reprint-meta" style="font-weight: bold;">
-                    <i class="fas fa-link"></i>
-                    Link:
-                </span>
-                <span class="reprint-info">
-                    <a href="https://kaiyinhuang.github.io/piggy_bank/">https://kaiyinhuang.github.io/piggy_bank/</a>
-                </span>
-            </div>
-            <div class="reprint__notice">
-                <span class="reprint-meta" style="font-weight: bold;">
-                    <i class="fas fa-copyright"></i>
-                    Reprint policy:
-                </span>
-                <span class="reprint-info">
-                    All articles in this blog are used except for special statements
-                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
-                    reprint policy. If reproduced, please indicate source
-                    <a href="/about" target="_blank">Kaiyin Huang</a>
-                    !
-                </span>
-            </div>
-        
     </div>
+</div>
 
-    <script async defer>
-      document.addEventListener("copy", function (e) {
-        let toastHTML = '<span>Copied successfully, please follow the reprint policy of this article</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">more</a>';
-        M.toast({html: toastHTML})
-      });
+    
 
-      function navToReprintStatement() {
-        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
-      }
-    </script>
-
-
-
-            <div class="tag_share" style="display: block;">
-                <div class="post-meta__tag-list" style="display: inline-block;">
-                    
-                        <div class="article-tag">
+    <article id="articles" class="container articles">
+        <div class="row tags-posts">
+            
+            
+            <div class="article tag-post col s12 m6 l4" data-tags="JavaScript, Mini-program, HTML, CSS" data-aos="fade-up">
+                <div class="card">
+                    <a href="/bird/">
+                        <div class="card-image tag-image">
                             
-                                <a href="/tags/Rhino/">
-                                    <span class="chip bg-color">Rhino</span>
-                                </a>
+                            <img src="/images/posts/bird/1.png" class="responsive-img" alt="Online Bird Watching System (@Tencent)">
                             
-                                <a href="/tags/Model/">
-                                    <span class="chip bg-color">Model</span>
-                                </a>
-                            
-                                <a href="/tags/Render/">
-                                    <span class="chip bg-color">Render</span>
-                                </a>
-                            
-                                <a href="/tags/C/">
-                                    <span class="chip bg-color">C#</span>
-                                </a>
-                            
-                                <a href="/tags/Unity/">
-                                    <span class="chip bg-color">Unity</span>
-                                </a>
-                            
-                                <a href="/tags/Keyshot/">
-                                    <span class="chip bg-color">Keyshot</span>
-                                </a>
-                            
+                            <span class="card-title">Online Bird Watching System (@Tencent)</span>
                         </div>
-                    
-                </div>
-                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
-                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
-<div id="article-share">
-
-    
-    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
-    <script src="/libs/share/js/social-share.min.js"></script>
-    
-
-    
-
-</div>
-
+                    </a>
+                    <div class="card-content article-content">
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>Aug 14, 2023
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-user fa-fw"></i>
+                                Kaiyin Huang
+                                
+                            </span>
+                        </div>
+                    </div>
                 </div>
             </div>
             
         </div>
-    </div>
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-<article id="prenext-posts" class="prev-next articles">
-    <div class="row article-row">
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
-            <div class="card">
-                <a href="/yue_card/">
-                    <div class="card-image">
-                        
-                        <img src="/images/posts/yue_card/7.png" class="responsive-img" alt="Yue Card (粤卡) -based Morning Tea Serving System">
-                        
-                        <span class="card-title">Yue Card (粤卡) -based Morning Tea Serving System</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            This project designed and implemented an intelligent morning tea supply system based on the innovative concept of Yue-card (粤卡)
-                        
-                    </div>
-                    <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>Aug 06, 2022
-                        </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-user fa-fw"></i>
-                            Kaiyin Huang
-                            
-                        </span>
-                    </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/Rhino/">
-                        <span class="chip bg-color">Rhino</span>
-                    </a>
-                    
-                    <a href="/tags/Model/">
-                        <span class="chip bg-color">Model</span>
-                    </a>
-                    
-                    <a href="/tags/Render/">
-                        <span class="chip bg-color">Render</span>
-                    </a>
-                    
-                    <a href="/tags/Mini-program/">
-                        <span class="chip bg-color">Mini-program</span>
-                    </a>
-                    
-                    <a href="/tags/Keyshot/">
-                        <span class="chip bg-color">Keyshot</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                Current&nbsp;<i class="far fa-dot-circle"></i>
-            </div>
-            <div class="card">
-                <a href="/piggy_bank/">
-                    <div class="card-image">
-                        
-                        <img src="/images/posts/piggy_bank/1.png" class="responsive-img" alt="Intelligent Piggy Bank">
-                        
-                        <span class="card-title">Intelligent Piggy Bank</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            We designed and implemented intelligent piggy bank which leverages task-reward mechanism for guiding children to better use money
-                        
-                    </div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>Dec 06, 2021
-                            </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-user fa-fw"></i>
-                            Kaiyin Huang
-                            
-                        </span>
-                    </div>
-                </div>
-
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/Rhino/">
-                        <span class="chip bg-color">Rhino</span>
-                    </a>
-                    
-                    <a href="/tags/Model/">
-                        <span class="chip bg-color">Model</span>
-                    </a>
-                    
-                    <a href="/tags/Render/">
-                        <span class="chip bg-color">Render</span>
-                    </a>
-                    
-                    <a href="/tags/C/">
-                        <span class="chip bg-color">C#</span>
-                    </a>
-                    
-                    <a href="/tags/Unity/">
-                        <span class="chip bg-color">Unity</span>
-                    </a>
-                    
-                    <a href="/tags/Keyshot/">
-                        <span class="chip bg-color">Keyshot</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-    </div>
-</article>
-
-</div>
-
-
-
-<!-- 代码块功能依赖 -->
-<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
-
-
-
-<!-- 代码语言 -->
-
-<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
-
-
-<!-- 代码块复制 -->
-
-<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
-
-
-<!-- 代码块收缩 -->
-
-<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
-
-
-
-    
-
+    </article>
 </main>
 
 
